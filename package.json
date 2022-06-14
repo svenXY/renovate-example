@@ -10,6 +10,6 @@
     "prop-types": "15.7.1"
   },
   "devDependencies": {
-    "audit-ci": "6.1.9"
+    "audit-ci": "6.1.2"
   }
 }
