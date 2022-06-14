@@ -1,0 +1,15 @@
+{
+  "name": "@com/project",
+  "version": "0.1.0",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "main": "lib/index.js",
+  "dependencies": {
+    "prop-types": "15.7.1"
+  },
+  "devDependencies": {
+    "audit-ci": "6.1.9"
+  }
+}

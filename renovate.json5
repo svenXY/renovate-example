@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["testing-library/react"],
+      "allowedVersions": "<13"
+    }
+  ]
+
+}
