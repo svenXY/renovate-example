@@ -3,14 +3,14 @@ module.exports = {
   labels: ["dependencies"],
   packageRules: [
     {
-      "description": "Label devDependencies",
-      "matchDepTypes": ["devDependencies"],
-      "addLabels": ["devDeps"]
-    },
-    {
       "description": "Label major",
       "matchUpdateTypes": ["major"],
       "addlabels": ["major"]
+    },
+    {
+      "description": "Label devDependencies",
+      "matchDepTypes": ["devDependencies"],
+      "addLabels": ["devDeps"]
     },
     {
       "description": "Label non-major",
