@@ -34,4 +34,4 @@ Dependencies of type major should have dependencies, major, devDependecies of ty
 
 ## Actual behavior
 
-Neither the major nor the non-major label get added whereas the devDeps label gets added
+Neither the major nor the non-major label get added whereas the devDeps label gets added. This is curious as if order actually played a role here, one would assume that either the first or the last merge should "win".
