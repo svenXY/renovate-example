@@ -11,23 +11,23 @@ https://docs.renovatebot.com/configuration-options/#addLabels
 ```
 "labels": ["dependencies"],
 "package_rules": 
- [
-    {
-      "description": "Label major",
-      "matchUpdateTypes": ["major"],
-      "addlabels": ["major"]
-    },
-    {
-      "description": "Label non-major",
-      "matchUpdateTypes": ["minor", "patch", "pin"],
-      "addlabels": ["non-major"]
-    },
-    {
-      "description": "Label devDependencies",
-      "matchDepTypes": ["devDependencies"],
-      "addLabels": ["devDeps"]
-    }
-]
+   [
+      {
+        "description": "Label major",
+        "matchUpdateTypes": ["major"],
+        "addlabels": ["major"]
+      },
+      {
+        "description": "Label devDependencies",
+        "matchDepTypes": ["devDependencies"],
+        "addLabels": ["devDeps"]
+      },
+      {
+        "description": "Label non-major",
+        "matchUpdateTypes": ["minor", "patch", "pin"],
+        "addlabels": ["non-major"]
+      }
+  ]
 ```
 
 Dependencies of type major should have dependencies, major, devDependecies of type minor or patch should have dependencies, devDeps, non-major and so on. 
