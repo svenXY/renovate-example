@@ -7,7 +7,7 @@
   ],
   "main": "lib/index.js",
   "dependencies": {
-    "prop-types": "15.7.1"
+    "prop-types": "15.8.1"
   },
   "devDependencies": {
     "audit-ci": "5.1.2"
